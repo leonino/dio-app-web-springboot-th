@@ -1,9 +1,13 @@
 package com.leonino.appweb.model;
 
+import javax.validation.constraints.NotBlank;
+
 public class Jedi {
 
+    @NotBlank
     private String firstname;
 
+    @NotBlank
     private String lastname;
 
     public Jedi() {
